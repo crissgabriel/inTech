@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area col-sm-12 col-lg-8">
+	<section id="primary" class="container">
 		<main id="main" class="site-main" role="main">
 
 			<section class="error-404 not-found">
@@ -22,8 +22,6 @@ get_header(); ?>
 
 					<?php
 						get_search_form();
-
-
 					?>
 
 				</div><!-- .page-content -->
@@ -33,5 +31,4 @@ get_header(); ?>
 	</section><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

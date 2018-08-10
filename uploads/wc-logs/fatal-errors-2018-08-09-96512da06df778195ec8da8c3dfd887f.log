@@ -1,0 +1,80 @@
+2018-08-09T10:47:29+00:00 CRITICAL Uncaught Error: Function name must be a string in D:\xampp\htdocs\inTech-test\wp-content\themes\inTech\template-parts\home-page.php:36
+Stack trace:
+#0 D:\xampp\htdocs\inTech-test\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\inTech-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\inTech-test\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-08-09T10:48:23+00:00 CRITICAL Uncaught Error: Function name must be a string in D:\xampp\htdocs\inTech-test\wp-content\themes\inTech\template-parts\home-page.php:36
+Stack trace:
+#0 D:\xampp\htdocs\inTech-test\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\inTech-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\inTech-test\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-08-09T10:49:05+00:00 CRITICAL Uncaught Error: Function name must be a string in D:\xampp\htdocs\inTech-test\wp-content\themes\inTech\template-parts\home-page.php:36
+Stack trace:
+#0 D:\xampp\htdocs\inTech-test\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\inTech-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\inTech-test\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-08-09T10:51:01+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\xampp\htdocs\inTech-test\wp-content\themes\inTech\template-parts\home-page.php:36
+Stack trace:
+#0 D:\xampp\htdocs\inTech-test\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\inTech-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\inTech-test\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-08-09T10:51:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\xampp\htdocs\inTech-test\wp-content\themes\inTech\template-parts\home-page.php:36
+Stack trace:
+#0 D:\xampp\htdocs\inTech-test\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\inTech-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\inTech-test\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-08-09T10:52:48+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\xampp\htdocs\inTech-test\wp-content\themes\inTech\template-parts\home-page.php:34
+Stack trace:
+#0 D:\xampp\htdocs\inTech-test\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\inTech-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\inTech-test\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-08-09T12:11:28+00:00 CRITICAL Uncaught Error: Call to undefined function post_title() in D:\xampp\htdocs\inTech-test\wp-content\themes\inTech\template-parts\home-page.php:77
+Stack trace:
+#0 D:\xampp\htdocs\inTech-test\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\inTech-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\inTech-test\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-08-09T12:13:27+00:00 CRITICAL Uncaught Error: Call to undefined function product_cat() in D:\xampp\htdocs\inTech-test\wp-content\themes\inTech\template-parts\home-page.php:77
+Stack trace:
+#0 D:\xampp\htdocs\inTech-test\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\inTech-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\inTech-test\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-08-09T12:17:47+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\xampp\htdocs\inTech-test\wp-content\themes\inTech\template-parts\home-page.php:69
+Stack trace:
+#0 D:\xampp\htdocs\inTech-test\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\inTech-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\inTech-test\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-08-09T12:18:08+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\xampp\htdocs\inTech-test\wp-content\themes\inTech\template-parts\home-page.php:69
+Stack trace:
+#0 D:\xampp\htdocs\inTech-test\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\inTech-test\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\inTech-test\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+

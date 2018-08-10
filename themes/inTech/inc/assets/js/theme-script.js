@@ -136,6 +136,15 @@ jQuery( function ( $ ) {
 
         $('.slideControls .slideNext').click(function() {
             slider.goToNextSlide();
-        });        
+        });      
+
+        //Get category title and place it into input
+        $('#menu-products li a').click(function(){  
+            $('#field').val($(this).attr('title'));
+            return false;  
+        });
+        $('#prod-check').click(function(){  
+            $(this).toggleClass('checked');
+        });     
     });
 });
