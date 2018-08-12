@@ -1,0 +1,27 @@
+Aug 05 2018 18:30:45
+{"Number":2,"Message":"fopen(D:\\\\xampp\\\\htdocs\\\\inTech-test\\\\wp-content\\\\themes\\\\inTech\\\\inc\\\\assets\\\\img\\\\Thumbs.db): failed to open stream: Permission denied","File":"D:\\xampp\\htdocs\\inTech-test\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-extractor.php","Line":425}
+
+Aug 05 2018 18:30:49
+{"Number":2,"Message":"fopen(D:\\\\xampp\\\\htdocs\\\\inTech-test\\\\wp-content\\\\themes\\\\inTech\\\\img\\\\Thumbs.db): failed to open stream: Permission denied","File":"D:\\xampp\\htdocs\\inTech-test\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-extractor.php","Line":425}
+
+Aug 05 2018 18:30:49
+{"Number":2,"Message":"fopen(D:\\\\xampp\\\\htdocs\\\\inTech-test\\\\wp-content\\\\themes\\\\inTech\\\\Thumbs.db): failed to open stream: Permission denied","File":"D:\\xampp\\htdocs\\inTech-test\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-extractor.php","Line":425}
+
+Aug 06 2018 03:43:25
+{"Number":2,"Message":"fopen(D:\\\\xampp\\\\htdocs\\\\inTech-test\\\\wp-content\\\\themes\\\\inTech\\\\inc\\\\assets\\\\img\\\\Thumbs.db): failed to open stream: Permission denied","File":"D:\\xampp\\htdocs\\inTech-test\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-extractor.php","Line":425}
+
+Aug 06 2018 03:43:28
+{"Number":2,"Message":"fopen(D:\\\\xampp\\\\htdocs\\\\inTech-test\\\\wp-content\\\\themes\\\\inTech\\\\img\\\\Thumbs.db): failed to open stream: Permission denied","File":"D:\\xampp\\htdocs\\inTech-test\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-extractor.php","Line":425}
+
+Aug 06 2018 03:43:28
+{"Number":2,"Message":"fopen(D:\\\\xampp\\\\htdocs\\\\inTech-test\\\\wp-content\\\\themes\\\\inTech\\\\Thumbs.db): failed to open stream: Permission denied","File":"D:\\xampp\\htdocs\\inTech-test\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-extractor.php","Line":425}
+
+Aug 12 2018 05:26:16
+{"Number":2,"Message":"fopen(D:\\\\xampp\\\\htdocs\\\\inTech-test\\\\wp-content\\\\themes\\\\inTech\\\\inc\\\\assets\\\\img\\\\Thumbs.db): failed to open stream: Permission denied","File":"D:\\xampp\\htdocs\\inTech-test\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-extractor.php","Line":425}
+
+Aug 12 2018 05:26:21
+{"Number":2,"Message":"fopen(D:\\\\xampp\\\\htdocs\\\\inTech-test\\\\wp-content\\\\themes\\\\inTech\\\\img\\\\Thumbs.db): failed to open stream: Permission denied","File":"D:\\xampp\\htdocs\\inTech-test\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-extractor.php","Line":425}
+
+Aug 12 2018 05:26:22
+{"Number":2,"Message":"fopen(D:\\\\xampp\\\\htdocs\\\\inTech-test\\\\wp-content\\\\themes\\\\inTech\\\\Thumbs.db): failed to open stream: Permission denied","File":"D:\\xampp\\htdocs\\inTech-test\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-extractor.php","Line":425}
+
