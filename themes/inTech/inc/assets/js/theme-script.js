@@ -45,26 +45,6 @@ jQuery( function ( $ ) {
     $('.woocommerce-MyAccount-content .col-1').addClass('col-12').removeClass('col-1');
     $('.woocommerce-MyAccount-content .col-2').addClass('col-12').removeClass('col-2');
 
-    // Add Option to add Fullwidth Section
-    function fullWidthSection(){
-        var screenWidth = $(window).width();
-        if ($('.entry-content').length) {
-            var leftoffset = $('.entry-content').offset().left;
-        }else{
-            var leftoffset = 0;
-        }
-        $('.full-bleed-section').css({
-            'position': 'relative',
-            'left': '-'+leftoffset+'px',
-            'box-sizing': 'border-box',
-            'width': screenWidth,
-        });
-    }
-    fullWidthSection();
-    $( window ).resize(function() {
-        fullWidthSection();
-    });
-
     // Allow smooth scroll
     $('.page-scroller').on('click', function (e) {
         e.preventDefault();
@@ -104,12 +84,15 @@ jQuery( function ( $ ) {
         }           
 
         //Carousel slider
-        $('.center').slick({
+        $('#home-carousel.center').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
             speed: 1200,
             infinite: true,
             dots: false,
+            arrows: true,
+            prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left' aria-hidden='true'></i></button>",
+            nextArrow:"<button type='button' class='slick-next pull-right'><i class='fas fa-chevron-right' aria-hidden='true'></i></button>",
             responsive : [
                 {
                     breakpoint:992,
@@ -131,7 +114,7 @@ jQuery( function ( $ ) {
         });
 
         //lightbox slider
-        $('.center').slickLightbox({
+        $('#home-carousel.center').slickLightbox({
             slick: {
                 itemSelector: 'a',
                 navigateByKeyboard: true,
@@ -140,17 +123,30 @@ jQuery( function ( $ ) {
                 centerMode: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                mobileFirst: true
+                mobileFirst: true,
+                arrows: true,
+                prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left' aria-hidden='true'></i></button>",
+                nextArrow:"<button type='button' class='slick-next pull-right'><i class='fas fa-chevron-right' aria-hidden='true'></i></button>",                
             }
-        });      
-
+        });  
+       
         //Get category title and place it into input
-        $('#menu-products li a').click(function(){  
-            $('#field').val($(this).attr('title'));
-            return false;  
-        });
+        var prodContainers = $('#prod-cta .row');
+        $('#menu-products li:first-child').css('display', 'none')
 
-        //Show selected products on modal 
+        $('#menu-products li a').click(function(){ 
+            var fliedTitle = $('#field').text($(this).attr('title'));
+
+            //$('#field').css('display', 'none');
+            //$('#field-2').css('display', 'block');
+
+            prodContainers.hide().filter(this.hash).show();            
+            $(this).toggleClass('selected');
+
+            return false;  
+        }).filter(':first').click();
+
+        //Show selected products on modal jquery
         $('.prod-check').click(function() {  
             $(this).toggleClass('checked'); 
             $(this).parent().toggleClass('active');
