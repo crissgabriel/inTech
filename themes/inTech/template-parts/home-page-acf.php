@@ -18,37 +18,30 @@ get_header(); ?>
                             <div class="col-md-6 col-12 hero-left-cont">
                                 <?php the_sub_field('left_heading'); ?>
                                 <div class="left-text-hero"><?php the_sub_field('left_text'); ?></div>
-                                <!-- ?php the_sub_field('left_button'); ? -->
-                                <a href="#" id="btn-cta" class="btn btn-primary btn-cta">Submit</a>
+                                <button id="btn-cta" class="btn btn-primary btn-cta hvr-sweep-to-top">Submit</button>
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="right-cta">
                                     <div class="navbar-cta row">
                                         <?php if( have_rows('cta') ): ?>
-                                            <?php while(have_rows('cta')) : the_row();
-                                                // vars
-                                                //$banner_img = get_sub_field('background');
-                                            ?>                                          
-                                                <div id="field">PLEASE SELECT WHAT KIND OF PRODUCTS DO YOU PREFER</div>
-                                                <div class="dropdown-cta">
-                                                    <button class="btn btn-cta-dpd dropdown-toggle dropdown-toggle-split" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                                                        <?php wp_nav_menu( array( 'theme_location' => 'products' ) ); ?>
-                                                    </div>
-
-                                                </div>       
+                                            <?php while(have_rows('cta')) : the_row(); ?>                                        
+                                            <div id="field">PLEASE SELECT WHAT KIND OF PRODUCTS DO YOU PREFER</div>
+                                            <div class="dropdown-cta">
+                                                <button class="btn btn-cta-dpd dropdown-toggle dropdown-toggle-split" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+                                                    <?php wp_nav_menu( array( 'theme_location' => 'products' ) ); ?>
+                                                </div>
+                                            </div>       
                                             <?php endwhile; ?>
                                         <?php endif; ?>      
                                     </div> 
-                                    <div class="products-cta container" id="prod-cta">
-                                            
-                                            <?php if( have_rows('cta_category') ): ?>
-                                                <?php while(have_rows('cta_category')) : the_row();
-                                                    // vars
-                                                    $img = get_sub_field('img');
-                                                ?>
+                                    <div class="products-cta container" id="prod-cta">                                           
+                                        <?php if( have_rows('cta_category') ): ?>
+                                            <?php while(have_rows('cta_category')) : the_row();
+                                                // vars
+                                                $img = get_sub_field('img');
+                                            ?>
                                                 <div class="row" id="<?php the_sub_field('cta_slug'); ?>">
-                                                    
                                                     <?php if( have_rows('cta_products') ): ?>
                                                         <?php while(have_rows('cta_products')) : the_row();
                                                             //vars
@@ -57,14 +50,14 @@ get_header(); ?>
                                                         <div class="col-lg-6 col-md-12 cta-product">
                                                             <img src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt'] ?>"/>
                                                             <h4><?php the_sub_field('title'); ?></h4>
-                                                            <input type="checkbox" name="checkbox" class="prod-check" value="yes">
+                                                            <input type="checkbox" name="checkbox" class="prod-check">
                                                             <span class="checkmark"></span>
                                                         </div>
-                                                            <?php endwhile; ?>
-                                                        <?php endif; ?>
+                                                        <?php endwhile; ?>
+                                                    <?php endif; ?>
                                                 </div>
-                                                <?php endwhile; ?>
-                                            <?php endif; ?>                                                                            
+                                            <?php endwhile; ?>
+                                        <?php endif; ?>
                                     </div>                      
                                 </div>
                             </div>
@@ -112,8 +105,7 @@ get_header(); ?>
                 // vars
                 $img = get_sub_field('img');
             ?>
-            <div class="row test2" id="<?php the_sub_field('cta_slug'); ?>">
-                
+            <div class="row test2" id="<?php the_sub_field('cta_slug'); ?>">                
                 <?php if( have_rows('cta_products') ): ?>
                     <?php while(have_rows('cta_products')) : the_row();
                         //vars
@@ -123,8 +115,8 @@ get_header(); ?>
                         <img src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt'] ?>"/>
                         <h4><?php the_sub_field('title'); ?></h4>
                     </div>
-                        <?php endwhile; ?>
-                    <?php endif; ?>
+                    <?php endwhile; ?>
+                <?php endif; ?>
             </div>
             <?php endwhile; ?>
         <?php endif; ?>
